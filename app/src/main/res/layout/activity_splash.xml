@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_boss">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <ImageView
+            android:id="@+id/splashLogo"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_boreac_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-light"
+            android:letterSpacing="0.20"
+            android:text="Powered by Boreac"
+            android:textColor="@color/boss_text"
+            android:textSize="17sp" />
+
+        <ProgressBar
+            android:id="@+id/splashProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="42dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/boss_accent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:letterSpacing="0.22"
+        android:text="SECURE TECHNOLOGY FOR A QUIETER WORLD"
+        android:textColor="@color/boss_muted"
+        android:textSize="9sp" />
+</FrameLayout>

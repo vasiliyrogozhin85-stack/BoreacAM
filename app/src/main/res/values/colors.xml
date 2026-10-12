@@ -1,0 +1,14 @@
+<resources>
+    <color name="boss_bg">#050A0F</color>
+    <color name="boss_bg_2">#09131C</color>
+    <color name="boss_surface">#0B1721</color>
+    <color name="boss_surface_2">#101F2B</color>
+    <color name="boss_accent">#39BFFF</color>
+    <color name="boss_accent_soft">#1B79A8</color>
+    <color name="boss_text">#ECF8FF</color>
+    <color name="boss_muted">#849BAA</color>
+    <color name="boss_success">#18E0C1</color>
+    <color name="boss_error">#FF6B6B</color>
+    <color name="boss_border">#2A5E78</color>
+    <color name="boss_transparent">#00000000</color>
+</resources>

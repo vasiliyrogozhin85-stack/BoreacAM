@@ -1,0 +1,22 @@
+BoreacAM 1.0 verification
+
+Executed in the build workspace:
+  bash scripts/run_core_selftest.sh
+
+Result:
+  BoreacAM protocol self-test: OK
+  Bytes: 2500, packets: 3
+
+Covered by this test:
+- 16-QAM digital symbol loopback;
+- AudioModem 3.2.3 header encode/decode;
+- DATA frame duplication;
+- END frame;
+- packet CRC32;
+- whole-file CRC32;
+- full file encode/decode in an ideal digital channel.
+
+Not covered without a physical device:
+- real speaker/microphone acoustics;
+- Android AudioTrack/AudioRecord behavior on a specific phone;
+- AGC/noise suppression effects on a specific firmware.

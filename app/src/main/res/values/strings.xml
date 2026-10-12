@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BoreacAM</string>
+    <string name="powered_by">Powered by Boreac</string>
+    <string name="tagline">БЕЗОПАСНАЯ ПЕРЕДАЧА ЧЕРЕЗ ЗВУК</string>
+    <string name="send_file">Отправить файл</string>
+    <string name="send_file_hint">Передать любой файл через динамик</string>
+    <string name="receive_file">Получить файл</string>
+    <string name="receive_file_hint">Записать сигнал и восстановить файл</string>
+    <string name="stop_receive">Остановить и сохранить</string>
+    <string name="stop_send">Остановить передачу</string>
+    <string name="ready">Готово к передаче</string>
+    <string name="protocol">Совместимость: AudioModem 3.2.3 / 48 кГц / 16‑QAM</string>
+    <string name="choose_output">Выберите имя получаемого файла</string>
+    <string name="record_permission_needed">Для приёма файла нужен доступ к микрофону.</string>
+</resources>
